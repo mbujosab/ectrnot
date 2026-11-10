@@ -19,7 +19,16 @@ su cuenta.
   (complementa a =nacal-moodle=).
 
 * Estado
-Repositorio creado el 10 de noviembre de 2026. Todavía sin paquete.
+v1.0 (10 de noviembre de 2026): copia literal de los macros de =nacal= v1.6 y de sus definiciones HTML de =nacal-moodle= v1.2.
+
+* Instalación
+Enlaces simbólicos desde =~/texmf/tex/latex/ectrnot/= a los dos =.sty= de este repositorio.
+
+* Uso
+: \usepackage[soloAL]{nacal}
+: \usepackage{ectrnot}
+Para Moodle: =\usepackage{ectrnot-moodle}= (carga =nacal-moodle= y =ectrnot=).
+No se puede cargar junto con =\usepackage{nacal}= sin =soloAL= (hasta nacal v1.6 este carga los mismos macros).
 
 * Licencia
 LPPL 1.3 (fichero =LICENSE=).
