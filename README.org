@@ -1,0 +1,25 @@
+#+TITLE: ectrnot: notación de probabilidad y econometría
+#+AUTHOR: Marcos Bujosa
+#+LANGUAGE: es
+
+Paquete de LaTeX con la notación de probabilidad y econometría de los
+apuntes de Econometría (=Econometria-SRC=) y de los bancos de preguntas
+(=qbank-econometria=, =qbank-PEconometria=).
+
+Hasta la versión 1.6 de [[https://github.com/mbujosab/nacal-latex-package][nacal]] estos macros formaban parte de ese paquete
+(=nacal-probabilidad.sty= y =nacal-econometria.sty=). =nacal= se queda
+solo con la notación de álgebra lineal, y cada proyecto aporta la suya de
+probabilidad. Este paquete nace como copia literal de aquellos macros, de
+modo que los documentos salen idénticos, y a partir de ahí evoluciona por
+su cuenta.
+
+* Contenido previsto
+- =ectrnot.sty=: los macros. Carga =nacal= (solo álgebra lineal).
+- =ectrnot-moodle.sty=: sus versiones HTML para generar XML de Moodle
+  (complementa a =nacal-moodle=).
+
+* Estado
+Repositorio creado el 10 de noviembre de 2026. Todavía sin paquete.
+
+* Licencia
+LPPL 1.3 (fichero =LICENSE=).
